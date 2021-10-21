@@ -1,0 +1,19 @@
+<svg width="1191" height="569" viewBox="0 0 1191 569" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="80" width="1111" height="569" fill="#090909"/>
+<rect x="104" y="52" width="321" height="466" fill="white"/>
+<rect x="463" y="52" width="321" height="466" fill="white"/>
+<rect x="822" y="52" width="321" height="466" fill="white"/>
+<path d="M339.6 97V123.1L258 307H216.3L295.2 130H212.7V165.7H176.4V97H339.6Z" fill="#EA0000"/>
+<path d="M284 52.5L325 52.5L317 69H275.3L284 52.5L265 52.5H253H244H262L284 52.5Z" fill="#EA0000"/>
+<path d="M333.6 408V434.1L289.2 518H259L289.2 441H206.7V476.7H170.4V408H333.6Z" fill="#EA0000"/>
+<path d="M715.6 247V273.1L634 457H592.3L671.2 280H588.7V315.7H552.4V247H715.6Z" fill="#EA0000"/>
+<path d="M716.6 492V518.1H701H672H589.7H553.4V492H716.6Z" fill="#EA0000"/>
+<path d="M724 52L663 186H621.3L678.5 52L677.616 51.8939L724 52Z" fill="#EA0000"/>
+<path d="M1062.6 183V209.1L981 393H939.3L1018.2 216H935.7V251.7H899.4V183H1062.6Z" fill="#EA0000"/>
+<path d="M1053 456V480.609L1031 520H996.5L1008.38 487.114H925.478V504.5H889V456H1053Z" fill="#EA0000"/>
+<path d="M1084 52L1063.3 52L1002 123H960.096L1016.07 52L956.478 52H920L1084 52Z" fill="#EA0000"/>
+<rect x="29" y="86" width="22" height="432" fill="black"/>
+<ellipse cx="40" cy="60" rx="40" ry="37" fill="#FF0606"/>
+<line x1="31" y1="513" x2="100" y2="513" stroke="black" stroke-width="10"/>
+<line x1="29" y1="485" x2="98" y2="485" stroke="black" stroke-width="10"/>
+</svg>
