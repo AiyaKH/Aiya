@@ -1,0 +1,146 @@
+body {
+  background-color: grey;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.main {
+  background-color: white;
+  width: 1280px;
+  height: 5820px;
+  margin: auto;
+}
+.title {
+  height: 187px;
+  font-weight: 900;
+  font-size: 154px;
+  font-style: normal;
+  color: black;
+  display: block;
+  margin: 0;
+  margin-top: 34px;
+  text-align: center;
+}
+.pic img {
+  display: block;
+  margin-left: 100px;
+}
+.pic {
+  margin-top: 20px;
+  position: relative;
+  margin-bottom: 10px;
+}
+a {
+  margin-top: 15px;
+}
+.casino {
+  margin-top: 10px;
+  margin-left: 340px;
+}
+.card{
+  margin-top: 10px;
+  align-content: center;
+}
+.first {
+  margin-top: 80px;
+  margin-left: 260px;
+}
+.mon{
+  background-image: url('images/simp.svg');
+  height: 590px;
+  padding-left: 50px;
+  margin-top: 40px;
+  background-repeat: no-repeat;
+}
+.montserrat {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 40px;
+  color: red;
+}
+.mon p {
+  font-size:30px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  margin-right: 60px;
+  line-height: 35px;
+}
+.shrift {
+  background-image: url('images/начертания.svg');
+  height: 678px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+}
+.fin {
+  background-image: url('images/history.svg');
+  height: 1448px;
+  padding-left: 290px;
+  margin-bottom: 55px;
+  background-repeat: no-repeat;
+}
+.fin p:first-child {
+  padding-top: 638px;
+  padding-bottom: 100px;
+  padding-right: : 500px;
+  font-size: 30px;
+}
+.fin p:last-child {
+  padding-top: 70px;
+  padding-right: 300px;
+  font-size: 30px;
+  align-content: center;
+}
+.prim {
+  background-image: url('images/prim.svg');
+  height: 1448px;
+  padding-left: 290px;
+  margin-top: -300px;
+  margin-left: 54px;
+  background-repeat: no-repeat;
+}
+.pic2 img{
+  margin-top:-900px;
+  margin-left: 50px;
+}
+.rectangle {
+  width: 900px;
+  height: 200px;
+  background: black;
+  margin-top: 150px;
+  margin-left: 200px;
+}
+.rectangle H1{
+  font-size: 96px;
+  font-style: bold;
+  color: white;
+  margin: 0 auto;
+  display: block;
+  margin-top: 54px;
+  text-align: center;
+}
+.nowa{
+  margin-top: 70px;
+}
+.newa{
+  margin-left: 640px;
+  margin-top: -10px;
+}
+.rectangle p{
+  font-size: 31px;
+  margin-top: 80px;
+}
+.end{
+  margin-top: 750px;
+  margin-left: -50px;
+}
+.footer {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 54px;
+  margin-bottom: 26px;
+}
