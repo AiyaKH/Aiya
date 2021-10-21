@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>MONTSERRAT</title>
+    <script src="javascripts/jquery-3.5.1.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    $(function() {
+      $('.header a').each(function() {
+        $(this).on('click', function(e) {
+          e.preventDefault();
+          var scrollTo = $(this).attr('href');
+          var whitespace = scrollTo == '#s1' ? 70 : 30;
+          $('html,body').animate({
+            scrollTop: $(scrollTo).offset().top - whitespace
+          }, 1000);
+        });
+      });
+    });
+    </script>
+  </head>
+  <body>
+    <div class="title">MONTSERRAT</div>
+    <div class="pic">
+      <img src="images/1.svg" alt="">
+    </div>
+    <div class="main">
+      <div class="header">
+        <a href="#s1">О шрифте</a>
+        <a href="#s2">История</a>
+        <a href="#s3">Применение</a>
+        <a href="#s4">Новинка</a>
+      </div>
+      <div class="casino">
+        <img src="images/casino.svg" alt="">
+      </div>
+      <div class="card">
+        <img src="images/card.svg" alt="">
+      </div>
+      <div id="s1" class="first">
+        <img src="images/first.svg" alt="">
+    </div>
+      <div class="pic2">
+        <img src="images/pic.svg">
+      <div class="mon">
+        <p><span class="montserrat">MONTSERRAT</span> — гротескный шрифт<br>
+        с примерно одинаковым соотношением <br>ширины и высоты символов.</p>
+        <p>Он включает различные стили, <br>начиная от тонких до экстра-жирного и черного.
+        <br>Шрифт также хорошо сочетается с Roboto.</p>
+      </div>
+      <div class="shrift"> </div>
+      <div  id="s2" class="fin">
+        <p>Шрифт был создан Хульетой Улановски,
+          <br>дизайнером из&nbsp;Аргентины, <br>одной из&nbsp;основательниц студии ZkySky.</p>
+        <p>Хульета вдохновлялась плакатами и&nbsp;вывесками старого района Монсеррат в&nbsp;Буэнос Айресе, поэтому шрифт отражает
+            эстетику традиционной типографики Аргентины начала XX века.</p>
+      </div>
+      <div id="s3" class="prim"></div>
+      <div class="pic pic2">
+       <img src="images/circle1.svg" alt="">
+      </div>
+      <div id="s4" class="rectangle">
+        <H1>Новинка</h1>
+          <div class="nowa">
+            <img src="images/nowa.svg" alt="">
+          </div>
+          <div class="newa">
+            <img src="images/nowa.svg" alt="">
+          </div>
+          <p>В 2017 году гарнитура была перерисована целой
+            командой шрифтовиков под руководством её автора.
+            Все начертания улучшили и сделали более гармоничными. </p>
+            <br>
+          <p>Также гарнитура стала поддерживать кириллицу.
+            Разработкой руководил Хуан Пабло дель Перал,
+            который консультировался с русскими шрифтовиками.</p>
+      </div>
+      <div class="end">
+        <img src="images/simp.svg" alt="">
+      </div>
+      <div class="footer">Райбаева А.</div>
+    </div>
+    </div>
+  </body>
+</html>
